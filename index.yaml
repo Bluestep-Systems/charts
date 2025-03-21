@@ -1,9 +1,20 @@
 apiVersion: v1
 entries:
+  db-backup:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2025-03-21T15:39:47.866445234-06:00"
+    description: A Helm chart for Kubernetes
+    digest: 91ab38747d7e7fe20e6d63e5cade12d880911dd58c4e4d6d83ab81cf86476395
+    name: db-backup
+    type: application
+    urls:
+    - db-backup-0.1.0.tgz
+    version: 0.1.0
   snapshotter:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2025-03-21T15:05:41.04303953-06:00"
+    created: "2025-03-21T15:39:47.86687276-06:00"
     description: A Helm chart for Kubernetes
     digest: 6a47141841ac66d746e7bcaa25ff619e433ee84c141bf0deb79167fea700e227
     name: snapshotter
@@ -11,4 +22,4 @@ entries:
     urls:
     - snapshotter-0.1.0.tgz
     version: 0.1.0
-generated: "2025-03-21T15:05:41.042630009-06:00"
+generated: "2025-03-21T15:39:47.866058766-06:00"
