@@ -3,7 +3,7 @@ entries:
   db:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2025-03-21T15:55:32.821971244-06:00"
+    created: "2025-03-21T15:59:59.581226192-06:00"
     dependencies:
     - condition: snapshotter.enabled
       name: snapshotter
@@ -15,7 +15,7 @@ entries:
       repository: https://bluestep-systems.github.io/charts
       version: 0.1.0
     description: A Helm chart for Kubernetes
-    digest: 009a0d674181c929354cd9f616746bc893aab3755ceb8b9bec2beb493a0bebe9
+    digest: cdc052a6e8a38ec74ace267c90663a2d2c38194c2ebc748c8aa1b804cf04503d
     name: db
     type: application
     urls:
@@ -24,7 +24,7 @@ entries:
   db-backup:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2025-03-21T15:55:32.822233487-06:00"
+    created: "2025-03-21T15:59:59.581489027-06:00"
     description: A Helm chart for Kubernetes
     digest: 91ab38747d7e7fe20e6d63e5cade12d880911dd58c4e4d6d83ab81cf86476395
     name: db-backup
@@ -35,7 +35,7 @@ entries:
   snapshotter:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2025-03-21T15:55:32.822464823-06:00"
+    created: "2025-03-21T15:59:59.581711726-06:00"
     description: A Helm chart for Kubernetes
     digest: 2e9e88be59f9c7429d4519c21a669bd8d5453d42b1718d8a4a2958d09eed0060
     name: snapshotter
@@ -43,4 +43,4 @@ entries:
     urls:
     - snapshotter-0.1.0.tgz
     version: 0.1.0
-generated: "2025-03-21T15:55:32.820891381-06:00"
+generated: "2025-03-21T15:59:59.580156499-06:00"
