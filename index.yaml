@@ -3,7 +3,7 @@ entries:
   b6p-bandwidth:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-03-24T09:03:00.457036875-06:00"
+    created: "2025-03-25T15:28:52.034448466-06:00"
     description: A Helm chart for Kubernetes
     digest: 150a3038f4d2300f869c6ed426b61806952b0c8adc0712d24918cd69bc6da369
     name: b6p-bandwidth
@@ -14,7 +14,7 @@ entries:
   builder-web:
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2025-03-24T09:03:00.457433212-06:00"
+    created: "2025-03-25T15:28:52.034873215-06:00"
     description: A Helm chart for Kubernetes
     digest: 3bf1483af9da1dac7c1e8671c7e9f45c06af2c43e987c12a7f84a39b6cce8296
     name: builder-web
@@ -25,7 +25,7 @@ entries:
   db:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2025-03-24T09:03:00.458836656-06:00"
+    created: "2025-03-25T15:28:52.035902561-06:00"
     dependencies:
     - condition: snapshotter.enabled
       name: snapshotter
@@ -46,7 +46,7 @@ entries:
   db-backup:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2025-03-24T09:03:00.459366263-06:00"
+    created: "2025-03-25T15:28:52.036187869-06:00"
     description: A Helm chart for Kubernetes
     digest: 91ab38747d7e7fe20e6d63e5cade12d880911dd58c4e4d6d83ab81cf86476395
     name: db-backup
@@ -57,7 +57,7 @@ entries:
   snapshotter:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2025-03-24T09:03:00.459837371-06:00"
+    created: "2025-03-25T15:28:52.036780777-06:00"
     description: A Helm chart for Kubernetes
     digest: 2e9e88be59f9c7429d4519c21a669bd8d5453d42b1718d8a4a2958d09eed0060
     name: snapshotter
@@ -68,7 +68,27 @@ entries:
   web:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2025-03-24T09:03:00.464090945-06:00"
+    created: "2025-03-25T15:28:52.041600119-06:00"
+    dependencies:
+    - condition: db.enabled
+      name: db
+      repository: https://bluestep-systems.github.io/charts
+      version: 0.1.0
+    - alias: alt1db
+      condition: alt1db.enabled
+      name: db
+      repository: https://bluestep-systems.github.io/charts
+      version: 0.1.0
+    description: A Helm chart for Kubernetes
+    digest: 7e542f162a2e348c0e91598f4bc95154b7c13f8efbe917f17dba2767a9fcef07
+    name: web
+    type: application
+    urls:
+    - web-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2025-03-25T15:28:52.039455437-06:00"
     dependencies:
     - condition: db.enabled
       name: db
@@ -86,4 +106,4 @@ entries:
     urls:
     - web-0.1.0.tgz
     version: 0.1.0
-generated: "2025-03-24T09:03:00.456042942-06:00"
+generated: "2025-03-25T15:28:52.033794599-06:00"
