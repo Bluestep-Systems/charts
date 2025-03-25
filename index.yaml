@@ -1,15 +1,26 @@
 apiVersion: v1
 entries:
-  b6p-bandwidth:
+  apt-cacher-ng:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-03-24T16:04:01.840614891-06:00"
+    description: A Helm chart for Kubernetes
+    digest: 8c6085dcbcde00fc491469fbb69c1e76e703bc60ee90cecea0643021462dbc16
+    name: apt-cacher-ng
+    type: application
+    urls:
+    - apt-cacher-ng-0.1.0.tgz
+    version: 0.1.0
+  bandwidth:
   - apiVersion: v2
     appVersion: 1.16.0
     created: "2025-03-25T15:28:52.034448466-06:00"
     description: A Helm chart for Kubernetes
-    digest: 150a3038f4d2300f869c6ed426b61806952b0c8adc0712d24918cd69bc6da369
-    name: b6p-bandwidth
+    digest: aa6011f04bfd229c7b938720e8d0511c8f20b6e4ec86ede7e916d70ad86bfdbe
+    name: bandwidth
     type: application
     urls:
-    - b6p-bandwidth-0.1.0.tgz
+    - bandwidth-0.1.0.tgz
     version: 0.1.0
   builder-web:
   - apiVersion: v2
@@ -22,6 +33,17 @@ entries:
     urls:
     - builder-web-0.0.1.tgz
     version: 0.0.1
+  certbot:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2025-03-24T16:04:01.841824559-06:00"
+    description: A Helm chart for Kubernetes
+    digest: 027f7a7b5f0f830d069c2b2018b5a8fd490b37ef73bb529112bd14b472055531
+    name: certbot
+    type: application
+    urls:
+    - certbot-0.1.0.tgz
+    version: 0.1.0
   db:
   - apiVersion: v2
     appVersion: 0.1.0
@@ -54,6 +76,104 @@ entries:
     urls:
     - db-backup-0.1.0.tgz
     version: 0.1.0
+  dbupdater:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-03-24T16:04:01.843380509-06:00"
+    description: A Helm chart for Kubernetes
+    digest: 7ecf942d446a28574f632b3e0cbd884a731d2097d66733d4c60871770091c480
+    name: dbupdater
+    type: application
+    urls:
+    - dbupdater-0.1.0.tgz
+    version: 0.1.0
+  k8s-api-web:
+  - apiVersion: v2
+    appVersion: 0.0.1
+    created: "2025-03-24T16:04:01.84366245-06:00"
+    description: A Helm chart for Kubernetes
+    digest: 5483a424d0d955b3e631a4c5e77484f9e7f5bb1a5931a1e9478e647dbd5fde61
+    name: k8s-api-web
+    type: application
+    urls:
+    - k8s-api-web-0.0.1.tgz
+    version: 0.0.1
+  m6n-installer:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2025-03-24T16:04:01.843983835-06:00"
+    description: A Helm chart for Kubernetes
+    digest: 8beaa6c139d5420b9d51520e91d1a11af597a1b2b009fe273dd0780d766eedb7
+    name: m6n-installer
+    type: application
+    urls:
+    - m6n-installer-0.1.0.tgz
+    version: 0.1.0
+  medispan-web:
+  - apiVersion: v2
+    appVersion: 0.0.1
+    created: "2025-03-24T16:04:01.844282277-06:00"
+    description: A Helm chart for Kubernetes
+    digest: 7bf05241da511f1bb8cb1c27c59fe4fe81b14e2092b2767b29025077d9cc0b28
+    name: medispan-web
+    type: application
+    urls:
+    - medispan-web-0.0.1.tgz
+    version: 0.0.1
+  pdfreactor:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-03-24T16:04:01.844600256-06:00"
+    description: A Helm chart for Kubernetes
+    digest: ff9403006226a032fcf76d0dcb4d36e094efd8f91350a2777f5bc8569d1e496f
+    name: pdfreactor
+    type: application
+    urls:
+    - pdfreactor-0.1.0.tgz
+    version: 0.1.0
+  powerdns:
+  - apiVersion: v2
+    appVersion: 0.0.1
+    created: "2025-03-24T16:04:01.847525805-06:00"
+    dependencies:
+    - condition: db.enabled
+      name: db
+      repository: https://bluestep-systems.github.io/charts
+      version: 0.1.0
+    description: A Helm chart for Kubernetes
+    digest: 0ece8a007a8abbdc891d1abad0411bb0311c773671cfea79ca2e5bae4f234a3a
+    name: powerdns
+    type: application
+    urls:
+    - powerdns-0.0.1.tgz
+    version: 0.0.1
+  shlink:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-03-24T16:04:01.848927144-06:00"
+    dependencies:
+    - condition: dbupdater.enabled
+      name: dbupdater
+      repository: https://bluestep-systems.github.io/charts
+      version: 0.1.0
+    description: A Helm chart for Kubernetes
+    digest: 3ffe156ba6fab2b2ac91d6565e87cd9c4e763ac494258f169cdc29e6b7bbc2fd
+    name: shlink
+    type: application
+    urls:
+    - shlink-0.1.0.tgz
+    version: 0.1.0
+  smtp:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2025-03-24T16:04:01.849831517-06:00"
+    description: A Helm chart for Kubernetes
+    digest: 0086bfd14b0e5249b6a91496862d99c9d3ae148729367a1c68a784b500038da5
+    name: smtp
+    type: application
+    urls:
+    - smtp-0.1.0.tgz
+    version: 0.1.0
   snapshotter:
   - apiVersion: v2
     appVersion: 0.1.0
@@ -65,6 +185,17 @@ entries:
     urls:
     - snapshotter-0.1.0.tgz
     version: 0.1.0
+  unoconv-web:
+  - apiVersion: v2
+    appVersion: 0.0.1
+    created: "2025-03-24T16:04:01.850916871-06:00"
+    description: A Helm chart for Kubernetes
+    digest: c23c2717d092b99c5a906868204fd44f7827d5bc7ab0ef924ad7bb07d1de6a73
+    name: unoconv-web
+    type: application
+    urls:
+    - unoconv-web-0.0.1.tgz
+    version: 0.0.1
   web:
   - apiVersion: v2
     appVersion: 0.1.0
