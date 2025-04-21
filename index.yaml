@@ -3,7 +3,7 @@ entries:
   apt-cacher-ng:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-04-21T16:55:36.88713769Z"
+    created: "2025-04-21T17:45:44.079388042Z"
     description: A Helm chart for Kubernetes
     digest: bd1ab49c4e7c07a48793959085a1c583857356e71bc35629d0742750019ce90e
     name: apt-cacher-ng
@@ -14,7 +14,7 @@ entries:
   bandwidth:
   - apiVersion: v2
     appVersion: 1.16.1
-    created: "2025-04-21T16:55:36.888136806Z"
+    created: "2025-04-21T17:45:44.081290619Z"
     description: A Helm chart for Kubernetes
     digest: 2c25bfc5a7e23a160927933f519852ec2f0fae56b1d2a72ae60b15ee20391813
     name: bandwidth
@@ -24,7 +24,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-04-21T16:55:36.887658923Z"
+    created: "2025-04-21T17:45:44.080754339Z"
     description: A Helm chart for Kubernetes
     digest: aa6011f04bfd229c7b938720e8d0511c8f20b6e4ec86ede7e916d70ad86bfdbe
     name: bandwidth
@@ -35,7 +35,7 @@ entries:
   bsthealth:
   - apiVersion: v2
     appVersion: 25.04.15.01
-    created: "2025-04-21T16:55:36.891813442Z"
+    created: "2025-04-21T17:45:44.082708231Z"
     description: A Helm chart for Kubernetes
     digest: 3c75e191bb8b623d6ac91625f3173198912d668e8428a3d070ebfdea6778d89d
     name: bsthealth
@@ -45,7 +45,7 @@ entries:
     version: 0.1.7
   - apiVersion: v2
     appVersion: 1.16.6
-    created: "2025-04-21T16:55:36.891419356Z"
+    created: "2025-04-21T17:45:44.082362537Z"
     description: A Helm chart for Kubernetes
     digest: 25d1ff21fa9f20f5957927667777d0234cc60957033ad1be8ad630381c48c0b0
     name: bsthealth
@@ -55,7 +55,7 @@ entries:
     version: 0.1.6
   - apiVersion: v2
     appVersion: 1.16.5
-    created: "2025-04-21T16:55:36.891020632Z"
+    created: "2025-04-21T17:45:44.082023365Z"
     description: A Helm chart for Kubernetes
     digest: d113f5c015ed85b5260c95733c6635b593c7cdbc5c95f63d0ffae7263878b7cd
     name: bsthealth
@@ -65,7 +65,7 @@ entries:
     version: 0.1.5
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-04-21T16:55:36.888697332Z"
+    created: "2025-04-21T17:45:44.081644729Z"
     description: A Helm chart for Kubernetes
     digest: 2983cec0ea90273644a2410415643d23b3f363fddfbf232103ca7ef6b41ef122
     name: bsthealth
@@ -76,7 +76,7 @@ entries:
   builder-web:
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2025-04-21T16:55:36.892202548Z"
+    created: "2025-04-21T17:45:44.083119177Z"
     description: A Helm chart for Kubernetes
     digest: 3bf1483af9da1dac7c1e8671c7e9f45c06af2c43e987c12a7f84a39b6cce8296
     name: builder-web
@@ -87,7 +87,7 @@ entries:
   certbot:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2025-04-21T16:55:36.892478413Z"
+    created: "2025-04-21T17:45:44.083402315Z"
     description: A Helm chart for Kubernetes
     digest: 027f7a7b5f0f830d069c2b2018b5a8fd490b37ef73bb529112bd14b472055531
     name: certbot
@@ -98,7 +98,7 @@ entries:
   db:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2025-04-21T16:55:36.895324056Z"
+    created: "2025-04-21T17:45:44.086147533Z"
     dependencies:
     - condition: snapshotter.enabled
       name: snapshotter
@@ -118,7 +118,7 @@ entries:
     version: 0.1.4
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2025-04-21T16:55:36.894417043Z"
+    created: "2025-04-21T17:45:44.085226165Z"
     dependencies:
     - condition: snapshotter.enabled
       name: snapshotter
@@ -138,7 +138,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2025-04-21T16:55:36.893453584Z"
+    created: "2025-04-21T17:45:44.08433273Z"
     dependencies:
     - condition: snapshotter.enabled
       name: snapshotter
@@ -159,7 +159,7 @@ entries:
   db-backup:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2025-04-21T16:55:36.895583601Z"
+    created: "2025-04-21T17:45:44.086428216Z"
     description: A Helm chart for Kubernetes
     digest: 6653e8717cabdb94555cf4952be2fd4a7f33aa055f5a45193eb2d87a2033d27c
     name: db-backup
@@ -170,7 +170,7 @@ entries:
   dbupdater:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-04-21T16:55:36.895930799Z"
+    created: "2025-04-21T17:45:44.086697728Z"
     description: A Helm chart for Kubernetes
     digest: 7ecf942d446a28574f632b3e0cbd884a731d2097d66733d4c60871770091c480
     name: dbupdater
@@ -181,7 +181,7 @@ entries:
   k8s-api-web:
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2025-04-21T16:55:36.896249124Z"
+    created: "2025-04-21T17:45:44.087643283Z"
     description: A Helm chart for Kubernetes
     digest: 5483a424d0d955b3e631a4c5e77484f9e7f5bb1a5931a1e9478e647dbd5fde61
     name: k8s-api-web
@@ -192,7 +192,7 @@ entries:
   m6n-installer:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2025-04-21T16:55:36.89659009Z"
+    created: "2025-04-21T17:45:44.088308152Z"
     description: A Helm chart for Kubernetes
     digest: 8beaa6c139d5420b9d51520e91d1a11af597a1b2b009fe273dd0780d766eedb7
     name: m6n-installer
@@ -203,7 +203,7 @@ entries:
   medispan-web:
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2025-04-21T16:55:36.897503153Z"
+    created: "2025-04-21T17:45:44.089170307Z"
     description: A Helm chart for Kubernetes
     digest: 7bf05241da511f1bb8cb1c27c59fe4fe81b14e2092b2767b29025077d9cc0b28
     name: medispan-web
@@ -214,7 +214,7 @@ entries:
   pdfreactor:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-04-21T16:55:36.898223307Z"
+    created: "2025-04-21T17:45:44.089510782Z"
     description: A Helm chart for Kubernetes
     digest: ff9403006226a032fcf76d0dcb4d36e094efd8f91350a2777f5bc8569d1e496f
     name: pdfreactor
@@ -225,7 +225,7 @@ entries:
   powerdns:
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2025-04-21T16:55:36.901907518Z"
+    created: "2025-04-21T17:45:44.092525552Z"
     dependencies:
     - condition: db.enabled
       name: db
@@ -240,7 +240,7 @@ entries:
     version: 0.0.2
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2025-04-21T16:55:36.900377451Z"
+    created: "2025-04-21T17:45:44.091032659Z"
     dependencies:
     - condition: db.enabled
       name: db
@@ -256,7 +256,7 @@ entries:
   shlink:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-04-21T16:55:36.902556139Z"
+    created: "2025-04-21T17:45:44.093175173Z"
     dependencies:
     - condition: dbupdater.enabled
       name: dbupdater
@@ -272,7 +272,7 @@ entries:
   smtp:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2025-04-21T16:55:36.902995189Z"
+    created: "2025-04-21T17:45:44.093583554Z"
     description: A Helm chart for Kubernetes
     digest: a08db3d1674b3d56e578ec162ab45a5148aeef3a8235c13741de1f7678f058b5
     name: smtp
@@ -283,7 +283,7 @@ entries:
   snapshotter:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2025-04-21T16:55:36.903242681Z"
+    created: "2025-04-21T17:45:44.093836846Z"
     description: A Helm chart for Kubernetes
     digest: 2e9e88be59f9c7429d4519c21a669bd8d5453d42b1718d8a4a2958d09eed0060
     name: snapshotter
@@ -294,7 +294,7 @@ entries:
   unoconv-web:
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2025-04-21T16:55:36.903523735Z"
+    created: "2025-04-21T17:45:44.094116528Z"
     description: A Helm chart for Kubernetes
     digest: c23c2717d092b99c5a906868204fd44f7827d5bc7ab0ef924ad7bb07d1de6a73
     name: unoconv-web
@@ -304,8 +304,28 @@ entries:
     version: 0.0.1
   web:
   - apiVersion: v2
+    appVersion: 25.04.21.01
+    created: "2025-04-21T17:45:44.108997146Z"
+    dependencies:
+    - condition: db.enabled
+      name: db
+      repository: https://bluestep-systems.github.io/charts
+      version: 0.1.4
+    - alias: alt1db
+      condition: alt1db.enabled
+      name: db
+      repository: https://bluestep-systems.github.io/charts
+      version: 0.1.4
+    description: A Helm chart for Kubernetes
+    digest: df6232a9a5b47982b2c26843596a2d8ae32b84b0574a70397b0e077e4bf78857
+    name: web
+    type: application
+    urls:
+    - https://bluestep-systems.github.io/charts/web-0.1.14.tgz
+    version: 0.1.14
+  - apiVersion: v2
     appVersion: 25.04.21.00
-    created: "2025-04-21T16:55:36.915331119Z"
+    created: "2025-04-21T17:45:44.107018347Z"
     dependencies:
     - condition: db.enabled
       name: db
@@ -325,7 +345,7 @@ entries:
     version: 0.1.13
   - apiVersion: v2
     appVersion: 25.04.17.00
-    created: "2025-04-21T16:55:36.913199599Z"
+    created: "2025-04-21T17:45:44.104948229Z"
     dependencies:
     - condition: db.enabled
       name: db
@@ -345,7 +365,7 @@ entries:
     version: 0.1.12
   - apiVersion: v2
     appVersion: master
-    created: "2025-04-21T16:55:36.9112934Z"
+    created: "2025-04-21T17:45:44.101485093Z"
     dependencies:
     - condition: db.enabled
       name: db
@@ -365,7 +385,7 @@ entries:
     version: 0.1.11
   - apiVersion: v2
     appVersion: master
-    created: "2025-04-21T16:55:36.909382823Z"
+    created: "2025-04-21T17:45:44.099628041Z"
     dependencies:
     - condition: db.enabled
       name: db
@@ -385,7 +405,7 @@ entries:
     version: 0.1.10
   - apiVersion: v2
     appVersion: 25.04.16.00
-    created: "2025-04-21T16:55:36.922786548Z"
+    created: "2025-04-21T17:45:44.116160028Z"
     dependencies:
     - condition: db.enabled
       name: db
@@ -405,7 +425,7 @@ entries:
     version: 0.1.8
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2025-04-21T16:55:36.920858398Z"
+    created: "2025-04-21T17:45:44.113598996Z"
     dependencies:
     - condition: db.enabled
       name: db
@@ -425,7 +445,7 @@ entries:
     version: 0.1.7
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2025-04-21T16:55:36.918944204Z"
+    created: "2025-04-21T17:45:44.110845271Z"
     dependencies:
     - condition: db.enabled
       name: db
@@ -445,7 +465,7 @@ entries:
     version: 0.1.6
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2025-04-21T16:55:36.907060116Z"
+    created: "2025-04-21T17:45:44.097742487Z"
     dependencies:
     - condition: db.enabled
       name: db
@@ -463,4 +483,4 @@ entries:
     urls:
     - https://bluestep-systems.github.io/charts/web-0.1.0.tgz
     version: 0.1.0
-generated: "2025-04-21T16:55:36.886615646Z"
+generated: "2025-04-21T17:45:44.078381085Z"
