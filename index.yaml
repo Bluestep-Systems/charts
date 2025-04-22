@@ -3,102 +3,102 @@ entries:
   apt-cacher-ng:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-04-22T12:00:14.033073405-06:00"
+    created: "2025-04-22T20:24:14.300284958Z"
     description: A Helm chart for Kubernetes
     digest: bd1ab49c4e7c07a48793959085a1c583857356e71bc35629d0742750019ce90e
     name: apt-cacher-ng
     type: application
     urls:
-    - apt-cacher-ng-0.1.0.tgz
+    - https://bluestep-systems.github.io/charts/apt-cacher-ng-0.1.0.tgz
     version: 0.1.0
   bandwidth:
   - apiVersion: v2
     appVersion: 1.16.1
-    created: "2025-04-22T12:00:14.034389036-06:00"
+    created: "2025-04-22T20:24:14.301287701Z"
     description: A Helm chart for Kubernetes
     digest: 2c25bfc5a7e23a160927933f519852ec2f0fae56b1d2a72ae60b15ee20391813
     name: bandwidth
     type: application
     urls:
-    - bandwidth-0.1.1.tgz
+    - https://bluestep-systems.github.io/charts/bandwidth-0.1.1.tgz
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-04-22T12:00:14.0337243-06:00"
+    created: "2025-04-22T20:24:14.300782703Z"
     description: A Helm chart for Kubernetes
     digest: aa6011f04bfd229c7b938720e8d0511c8f20b6e4ec86ede7e916d70ad86bfdbe
     name: bandwidth
     type: application
     urls:
-    - bandwidth-0.1.0.tgz
+    - https://bluestep-systems.github.io/charts/bandwidth-0.1.0.tgz
     version: 0.1.0
   bsthealth:
   - apiVersion: v2
     appVersion: 25.04.15.01
-    created: "2025-04-22T12:00:14.036213184-06:00"
+    created: "2025-04-22T20:24:14.302798557Z"
     description: A Helm chart for Kubernetes
     digest: 3c75e191bb8b623d6ac91625f3173198912d668e8428a3d070ebfdea6778d89d
     name: bsthealth
     type: application
     urls:
-    - bsthealth-0.1.7.tgz
+    - https://bluestep-systems.github.io/charts/bsthealth-0.1.7.tgz
     version: 0.1.7
   - apiVersion: v2
     appVersion: 1.16.6
-    created: "2025-04-22T12:00:14.035769377-06:00"
+    created: "2025-04-22T20:24:14.302459627Z"
     description: A Helm chart for Kubernetes
     digest: 25d1ff21fa9f20f5957927667777d0234cc60957033ad1be8ad630381c48c0b0
     name: bsthealth
     type: application
     urls:
-    - bsthealth-0.1.6.tgz
+    - https://bluestep-systems.github.io/charts/bsthealth-0.1.6.tgz
     version: 0.1.6
   - apiVersion: v2
     appVersion: 1.16.5
-    created: "2025-04-22T12:00:14.03531927-06:00"
+    created: "2025-04-22T20:24:14.302098486Z"
     description: A Helm chart for Kubernetes
     digest: d113f5c015ed85b5260c95733c6635b593c7cdbc5c95f63d0ffae7263878b7cd
     name: bsthealth
     type: application
     urls:
-    - bsthealth-0.1.5.tgz
+    - https://bluestep-systems.github.io/charts/bsthealth-0.1.5.tgz
     version: 0.1.5
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-04-22T12:00:14.034854803-06:00"
+    created: "2025-04-22T20:24:14.301681392Z"
     description: A Helm chart for Kubernetes
     digest: 2983cec0ea90273644a2410415643d23b3f363fddfbf232103ca7ef6b41ef122
     name: bsthealth
     type: application
     urls:
-    - bsthealth-0.1.0.tgz
+    - https://bluestep-systems.github.io/charts/bsthealth-0.1.0.tgz
     version: 0.1.0
   builder-web:
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2025-04-22T12:00:14.03670439-06:00"
+    created: "2025-04-22T20:24:14.303195965Z"
     description: A Helm chart for Kubernetes
     digest: 3bf1483af9da1dac7c1e8671c7e9f45c06af2c43e987c12a7f84a39b6cce8296
     name: builder-web
     type: application
     urls:
-    - builder-web-0.0.1.tgz
+    - https://bluestep-systems.github.io/charts/builder-web-0.0.1.tgz
     version: 0.0.1
   certbot:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2025-04-22T12:00:14.037039338-06:00"
+    created: "2025-04-22T20:24:14.30346783Z"
     description: A Helm chart for Kubernetes
     digest: 027f7a7b5f0f830d069c2b2018b5a8fd490b37ef73bb529112bd14b472055531
     name: certbot
     type: application
     urls:
-    - certbot-0.1.0.tgz
+    - https://bluestep-systems.github.io/charts/certbot-0.1.0.tgz
     version: 0.1.0
   db:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2025-04-22T12:00:14.045317673-06:00"
+    created: "2025-04-22T20:24:14.309369402Z"
     dependencies:
     - condition: snapshotter.enabled
       name: snapshotter
@@ -114,11 +114,11 @@ entries:
     name: db
     type: application
     urls:
-    - db-0.1.5.tgz
+    - https://bluestep-systems.github.io/charts/db-0.1.5.tgz
     version: 0.1.5
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2025-04-22T12:00:14.043285116-06:00"
+    created: "2025-04-22T20:24:14.308445356Z"
     dependencies:
     - condition: snapshotter.enabled
       name: snapshotter
@@ -134,11 +134,11 @@ entries:
     name: db
     type: application
     urls:
-    - db-0.1.4.tgz
+    - https://bluestep-systems.github.io/charts/db-0.1.4.tgz
     version: 0.1.4
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2025-04-22T12:00:14.039575711-06:00"
+    created: "2025-04-22T20:24:14.307464475Z"
     dependencies:
     - condition: snapshotter.enabled
       name: snapshotter
@@ -154,11 +154,11 @@ entries:
     name: db
     type: application
     urls:
-    - db-0.1.3.tgz
+    - https://bluestep-systems.github.io/charts/db-0.1.3.tgz
     version: 0.1.3
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2025-04-22T12:00:14.03829101-06:00"
+    created: "2025-04-22T20:24:14.304452398Z"
     dependencies:
     - condition: snapshotter.enabled
       name: snapshotter
@@ -174,88 +174,88 @@ entries:
     name: db
     type: application
     urls:
-    - db-0.1.0.tgz
+    - https://bluestep-systems.github.io/charts/db-0.1.0.tgz
     version: 0.1.0
   db-backup:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2025-04-22T12:00:14.046033878-06:00"
+    created: "2025-04-22T20:24:14.309937408Z"
     description: A Helm chart for Kubernetes
     digest: de7122e8323c7c119929b6b9a4da222af77441f108b4dd17a47c88b71ab5b5c3
     name: db-backup
     type: application
     urls:
-    - db-backup-0.1.1.tgz
+    - https://bluestep-systems.github.io/charts/db-backup-0.1.1.tgz
     version: 0.1.1
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2025-04-22T12:00:14.04573394-06:00"
+    created: "2025-04-22T20:24:14.309639224Z"
     description: A Helm chart for Kubernetes
     digest: 6653e8717cabdb94555cf4952be2fd4a7f33aa055f5a45193eb2d87a2033d27c
     name: db-backup
     type: application
     urls:
-    - db-backup-0.1.0.tgz
+    - https://bluestep-systems.github.io/charts/db-backup-0.1.0.tgz
     version: 0.1.0
   dbupdater:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-04-22T12:00:14.046341716-06:00"
+    created: "2025-04-22T20:24:14.310217328Z"
     description: A Helm chart for Kubernetes
     digest: 7ecf942d446a28574f632b3e0cbd884a731d2097d66733d4c60871770091c480
     name: dbupdater
     type: application
     urls:
-    - dbupdater-0.1.0.tgz
+    - https://bluestep-systems.github.io/charts/dbupdater-0.1.0.tgz
     version: 0.1.0
   k8s-api-web:
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2025-04-22T12:00:14.046769133-06:00"
+    created: "2025-04-22T20:24:14.310512736Z"
     description: A Helm chart for Kubernetes
     digest: 5483a424d0d955b3e631a4c5e77484f9e7f5bb1a5931a1e9478e647dbd5fde61
     name: k8s-api-web
     type: application
     urls:
-    - k8s-api-web-0.0.1.tgz
+    - https://bluestep-systems.github.io/charts/k8s-api-web-0.0.1.tgz
     version: 0.0.1
   m6n-installer:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2025-04-22T12:00:14.04723628-06:00"
+    created: "2025-04-22T20:24:14.310847698Z"
     description: A Helm chart for Kubernetes
     digest: 8beaa6c139d5420b9d51520e91d1a11af597a1b2b009fe273dd0780d766eedb7
     name: m6n-installer
     type: application
     urls:
-    - m6n-installer-0.1.0.tgz
+    - https://bluestep-systems.github.io/charts/m6n-installer-0.1.0.tgz
     version: 0.1.0
   medispan-web:
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2025-04-22T12:00:14.047683197-06:00"
+    created: "2025-04-22T20:24:14.311186798Z"
     description: A Helm chart for Kubernetes
     digest: 7bf05241da511f1bb8cb1c27c59fe4fe81b14e2092b2767b29025077d9cc0b28
     name: medispan-web
     type: application
     urls:
-    - medispan-web-0.0.1.tgz
+    - https://bluestep-systems.github.io/charts/medispan-web-0.0.1.tgz
     version: 0.0.1
   pdfreactor:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-04-22T12:00:14.048175733-06:00"
+    created: "2025-04-22T20:24:14.311541948Z"
     description: A Helm chart for Kubernetes
     digest: ff9403006226a032fcf76d0dcb4d36e094efd8f91350a2777f5bc8569d1e496f
     name: pdfreactor
     type: application
     urls:
-    - pdfreactor-0.1.0.tgz
+    - https://bluestep-systems.github.io/charts/pdfreactor-0.1.0.tgz
     version: 0.1.0
   powerdns:
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2025-04-22T12:00:14.052741283-06:00"
+    created: "2025-04-22T20:24:14.317093107Z"
     dependencies:
     - condition: db.enabled
       name: db
@@ -266,11 +266,11 @@ entries:
     name: powerdns
     type: application
     urls:
-    - powerdns-0.0.2.tgz
+    - https://bluestep-systems.github.io/charts/powerdns-0.0.2.tgz
     version: 0.0.2
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2025-04-22T12:00:14.050463818-06:00"
+    created: "2025-04-22T20:24:14.315478167Z"
     dependencies:
     - condition: db.enabled
       name: db
@@ -281,12 +281,12 @@ entries:
     name: powerdns
     type: application
     urls:
-    - powerdns-0.0.1.tgz
+    - https://bluestep-systems.github.io/charts/powerdns-0.0.1.tgz
     version: 0.0.1
   shlink:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-04-22T12:00:14.053728986-06:00"
+    created: "2025-04-22T20:24:14.317739277Z"
     dependencies:
     - condition: dbupdater.enabled
       name: dbupdater
@@ -297,45 +297,65 @@ entries:
     name: shlink
     type: application
     urls:
-    - shlink-0.1.0.tgz
+    - https://bluestep-systems.github.io/charts/shlink-0.1.0.tgz
     version: 0.1.0
   smtp:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2025-04-22T12:00:14.054539091-06:00"
+    created: "2025-04-22T20:24:14.318176699Z"
     description: A Helm chart for Kubernetes
     digest: a08db3d1674b3d56e578ec162ab45a5148aeef3a8235c13741de1f7678f058b5
     name: smtp
     type: application
     urls:
-    - smtp-0.1.0.tgz
+    - https://bluestep-systems.github.io/charts/smtp-0.1.0.tgz
     version: 0.1.0
   snapshotter:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2025-04-22T12:00:14.055095997-06:00"
+    created: "2025-04-22T20:24:14.318419019Z"
     description: A Helm chart for Kubernetes
     digest: 2e9e88be59f9c7429d4519c21a669bd8d5453d42b1718d8a4a2958d09eed0060
     name: snapshotter
     type: application
     urls:
-    - snapshotter-0.1.0.tgz
+    - https://bluestep-systems.github.io/charts/snapshotter-0.1.0.tgz
     version: 0.1.0
   unoconv-web:
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2025-04-22T12:00:14.055840112-06:00"
+    created: "2025-04-22T20:24:14.318700632Z"
     description: A Helm chart for Kubernetes
     digest: c23c2717d092b99c5a906868204fd44f7827d5bc7ab0ef924ad7bb07d1de6a73
     name: unoconv-web
     type: application
     urls:
-    - unoconv-web-0.0.1.tgz
+    - https://bluestep-systems.github.io/charts/unoconv-web-0.0.1.tgz
     version: 0.0.1
   web:
   - apiVersion: v2
+    appVersion: latest
+    created: "2025-04-22T20:24:14.337848297Z"
+    dependencies:
+    - condition: db.enabled
+      name: db
+      repository: https://bluestep-systems.github.io/charts
+      version: 0.1.5
+    - alias: alt1db
+      condition: alt1db.enabled
+      name: db
+      repository: https://bluestep-systems.github.io/charts
+      version: 0.1.5
+    description: A Helm chart for Kubernetes
+    digest: 9b5a8283a0f9c9fef18d5b5dba93eaab6aeb50cde02a092186d9e084822d59c7
+    name: web
+    type: application
+    urls:
+    - https://bluestep-systems.github.io/charts/web-0.1.17.tgz
+    version: 0.1.17
+  - apiVersion: v2
     appVersion: 25.04.21.02
-    created: "2025-04-22T12:00:14.080096789-06:00"
+    created: "2025-04-22T20:24:14.335875012Z"
     dependencies:
     - condition: db.enabled
       name: db
@@ -351,11 +371,11 @@ entries:
     name: web
     type: application
     urls:
-    - web-0.1.15.tgz
+    - https://bluestep-systems.github.io/charts/web-0.1.15.tgz
     version: 0.1.15
   - apiVersion: v2
     appVersion: 25.04.21.01
-    created: "2025-04-22T12:00:14.077287938-06:00"
+    created: "2025-04-22T20:24:14.3339999Z"
     dependencies:
     - condition: db.enabled
       name: db
@@ -371,11 +391,11 @@ entries:
     name: web
     type: application
     urls:
-    - web-0.1.14.tgz
+    - https://bluestep-systems.github.io/charts/web-0.1.14.tgz
     version: 0.1.14
   - apiVersion: v2
     appVersion: 25.04.21.00
-    created: "2025-04-22T12:00:14.074377518-06:00"
+    created: "2025-04-22T20:24:14.330345142Z"
     dependencies:
     - condition: db.enabled
       name: db
@@ -391,11 +411,11 @@ entries:
     name: web
     type: application
     urls:
-    - web-0.1.13.tgz
+    - https://bluestep-systems.github.io/charts/web-0.1.13.tgz
     version: 0.1.13
   - apiVersion: v2
     appVersion: 25.04.17.00
-    created: "2025-04-22T12:00:14.070273775-06:00"
+    created: "2025-04-22T20:24:14.328461854Z"
     dependencies:
     - condition: db.enabled
       name: db
@@ -411,11 +431,11 @@ entries:
     name: web
     type: application
     urls:
-    - web-0.1.12.tgz
+    - https://bluestep-systems.github.io/charts/web-0.1.12.tgz
     version: 0.1.12
   - apiVersion: v2
     appVersion: master
-    created: "2025-04-22T12:00:14.065803925-06:00"
+    created: "2025-04-22T20:24:14.326490813Z"
     dependencies:
     - condition: db.enabled
       name: db
@@ -431,11 +451,11 @@ entries:
     name: web
     type: application
     urls:
-    - web-0.1.11.tgz
+    - https://bluestep-systems.github.io/charts/web-0.1.11.tgz
     version: 0.1.11
   - apiVersion: v2
     appVersion: master
-    created: "2025-04-22T12:00:14.063015924-06:00"
+    created: "2025-04-22T20:24:14.324598488Z"
     dependencies:
     - condition: db.enabled
       name: db
@@ -451,11 +471,11 @@ entries:
     name: web
     type: application
     urls:
-    - web-0.1.10.tgz
+    - https://bluestep-systems.github.io/charts/web-0.1.10.tgz
     version: 0.1.10
   - apiVersion: v2
     appVersion: 25.04.16.00
-    created: "2025-04-22T12:00:14.088188965-06:00"
+    created: "2025-04-22T20:24:14.345276954Z"
     dependencies:
     - condition: db.enabled
       name: db
@@ -471,11 +491,11 @@ entries:
     name: web
     type: application
     urls:
-    - web-0.1.8.tgz
+    - https://bluestep-systems.github.io/charts/web-0.1.8.tgz
     version: 0.1.8
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2025-04-22T12:00:14.085618022-06:00"
+    created: "2025-04-22T20:24:14.343351257Z"
     dependencies:
     - condition: db.enabled
       name: db
@@ -491,11 +511,11 @@ entries:
     name: web
     type: application
     urls:
-    - web-0.1.7.tgz
+    - https://bluestep-systems.github.io/charts/web-0.1.7.tgz
     version: 0.1.7
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2025-04-22T12:00:14.08291463-06:00"
+    created: "2025-04-22T20:24:14.339714674Z"
     dependencies:
     - condition: db.enabled
       name: db
@@ -511,11 +531,11 @@ entries:
     name: web
     type: application
     urls:
-    - web-0.1.6.tgz
+    - https://bluestep-systems.github.io/charts/web-0.1.6.tgz
     version: 0.1.6
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2025-04-22T12:00:14.060216003-06:00"
+    created: "2025-04-22T20:24:14.320926627Z"
     dependencies:
     - condition: db.enabled
       name: db
@@ -531,6 +551,6 @@ entries:
     name: web
     type: application
     urls:
-    - web-0.1.0.tgz
+    - https://bluestep-systems.github.io/charts/web-0.1.0.tgz
     version: 0.1.0
-generated: "2025-04-22T12:00:14.032436359-06:00"
+generated: "2025-04-22T20:24:14.29976358Z"
