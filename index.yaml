@@ -397,6 +397,16 @@ entries:
   certbot:
   - apiVersion: v2
     appVersion: 25.04.23.00
+    created: "2026-11-02T08:30:46.421684484-07:00"
+    description: A Helm chart for Kubernetes
+    digest: 3f910cf26ff8684746c89165d02381b85b0a4e037ba90ba28874816b42a43098
+    name: certbot
+    type: application
+    urls:
+    - https://bluestep-systems.github.io/charts/certbot-0.1.3.tgz
+    version: 0.1.3
+  - apiVersion: v2
+    appVersion: 25.04.23.00
     created: "2026-10-30T11:52:43.430611397-06:00"
     description: A Helm chart for Kubernetes
     digest: 21482f10fbe503a5f83667f691b4f12c9e241453894cffff39ec0de4d2555f25
@@ -7194,4 +7204,4 @@ entries:
     urls:
     - https://bluestep-systems.github.io/charts/web-global-25.03.0900.tgz
     version: 25.03.0900
-generated: "2026-11-02T08:26:45.453973902-07:00"
+generated: "2026-11-02T08:30:46.421399686-07:00"
