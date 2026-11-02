@@ -1389,6 +1389,21 @@ entries:
   powerdns:
   - apiVersion: v2
     appVersion: 5.1.5
+    created: "2026-11-02T11:27:49.455673096-07:00"
+    dependencies:
+    - condition: db.enabled
+      name: db
+      repository: https://bluestep-systems.github.io/charts
+      version: 0.2.0
+    description: A Helm chart for Kubernetes
+    digest: 5f16f3e11c8bc5f79f34f8d0692e50ce65475748abdb592e33a10aac350dabfb
+    name: powerdns
+    type: application
+    urls:
+    - https://bluestep-systems.github.io/charts/powerdns-1.1.1.tgz
+    version: 1.1.1
+  - apiVersion: v2
+    appVersion: 5.1.5
     created: "2026-11-02T18:18:02.639451085Z"
     dependencies:
     - condition: db.enabled
@@ -7224,4 +7239,4 @@ entries:
     urls:
     - https://bluestep-systems.github.io/charts/web-global-25.03.0900.tgz
     version: 25.03.0900
-generated: "2026-11-02T18:18:02.547116052Z"
+generated: "2026-11-02T11:27:49.454591885-07:00"
